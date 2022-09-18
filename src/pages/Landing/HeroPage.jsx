@@ -1,6 +1,8 @@
 import React from "react";
 import LOGO from '../../assets/img/Logo2.png'
 import '../../App.css'
+import BTN from '../../assets/img/btn.png'
+import BTNREGIS from '../../assets/img/btnregis.png'
 
 export default function HeroPage() {
   return (
@@ -11,9 +13,11 @@ export default function HeroPage() {
       <div className="hero-container" data-aos="fade-in">
         <img src={LOGO} width={430} alt="logo" className="header_logo" />
       </div>
-      <div className="hero-container" data-aos="fade-in">
-        <button className="btn btn-primary">DownLoad Game</button>
+      <div className="hero-container" data-aos="fade-in" >
+        <img src={BTNREGIS} className="button2"/>
+        <img src={BTN} className="button2"/>
       </div>
+      
     </section>
   );
 }

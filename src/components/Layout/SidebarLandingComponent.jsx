@@ -1,16 +1,15 @@
 import React from "react";
-import LOGO from "../../assets/img/Logo2.png";
+import LOGO from "../../assets/img/logopan.png";
 
 export default function SidebarLandingComponent() {
-
-    const onHero = async () => {
-        document.getElementById("hero");
-        console.log("hero")
-    }
-    const onAbout = async () => {
-        document.getElementById("about");
-        console.log("about")
-    }
+  const onHero = async () => {
+    document.getElementById("hero");
+    console.log("hero");
+  };
+  const onAbout = async () => {
+    document.getElementById("about");
+    console.log("about");
+  };
 
   return (
     <>
@@ -19,7 +18,7 @@ export default function SidebarLandingComponent() {
           <div className="profile">
             <img src={LOGO} className="img-fluid rounded-circle" />
             <h1 className="text-light">
-              <a href="index.html">PROMO RAGNAROK</a>
+              <a href="index.html">PREMO RAGNAROK</a>
             </h1>
             <h1 className="text-light">
               <a href="index.html">BY PANDORA</a>
@@ -27,8 +26,9 @@ export default function SidebarLandingComponent() {
           </div>
           <nav id="navbar" className="nav-menu navbar">
             <ul>
+              
               <li>
-                <a href="#hero" className="nav-link scrollto active">
+                <a href="#hero" className="nav-link scrollto">
                   <i className="bx bx-home" /> <span>Home</span>
                 </a>
               </li>
